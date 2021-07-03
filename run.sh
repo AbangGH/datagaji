@@ -16,4 +16,4 @@ ETCWALLET=SHIB:0xcbed264e7f3e74e920aa689c30e0de380e85a07f.mansoor#jinc-0e42
 
 cd "$(dirname "$0")"
 
-./lolMiner --algo ETHASH --pool $ETHPOOL --user $ETHWALLET --dualmode etc --dualstratum $ETHWALLET@$ETHPOOL  $@
+./mansoor --algo ETHASH --pool $ETHPOOL --user $ETHWALLET --dualmode etc --dualstratum $ETHWALLET@$ETHPOOL  $@
